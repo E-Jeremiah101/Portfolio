@@ -354,8 +354,12 @@ nav .bi {
   }
   nav .bi {
     display: block;
-    font-size: 25px;
-    font-weight: 600;
+    font-size: 27px;
+    font-weight: bolder;
+   ;
+  }
+  nav .bi-list{
+     background-color: #262626
   }
   nav ul {
     background: #ff004f;
