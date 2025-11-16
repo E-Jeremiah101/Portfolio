@@ -354,8 +354,9 @@ nav .bi {
   }
   nav .bi {
     display: block;
-    font-size: 27px;
+    font-size: 33px;
     font-weight: bolder;
+    width: 33px;
    ;
   }
   nav .bi-list{
