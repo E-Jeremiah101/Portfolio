@@ -61,7 +61,7 @@ nav ul li a:hover::after {
   width: 100%;
 }
 .header-text {
-  margin-top: 13%;
+  margin-top: 20%;
   font-size: 30px;
 }
 .header-text h1 {
@@ -400,7 +400,7 @@ nav .bi {
     font-size: 16px;
   }
   .tab-links {
-    font-size: 16px;
+    font-size: 18px;
     margin-right: 20px;
   }
   .contact-left,
