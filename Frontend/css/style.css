@@ -4,6 +4,119 @@
   font-family: "Poppins", sans-serif;
   box-sizing: border-box;
 }
+.bebas-neue-regular {
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.fira-sans-thin {
+  font-family: "Fira Sans", sans-serif;
+  font-weight: 100;
+  font-style: normal;
+}
+
+.fira-sans-extralight {
+  font-family: "Fira Sans", sans-serif;
+  font-weight: 200;
+  font-style: normal;
+}
+
+.fira-sans-light {
+  font-family: "Fira Sans", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.fira-sans-regular {
+  font-family: "Fira Sans", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.fira-sans-medium {
+  font-family: "Fira Sans", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.fira-sans-semibold {
+  font-family: "Fira Sans", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.fira-sans-bold {
+  font-family: "Fira Sans", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.fira-sans-extrabold {
+  font-family: "Fira Sans", sans-serif;
+  font-weight: 800;
+  font-style: normal;
+}
+
+.fira-sans-black {
+  font-family: "Fira Sans", sans-serif;
+  font-weight: 900;
+  font-style: normal;
+}
+
+.fira-sans-thin-italic {
+  font-family: "Fira Sans", sans-serif;
+  font-weight: 100;
+  font-style: italic;
+}
+
+.fira-sans-extralight-italic {
+  font-family: "Fira Sans", sans-serif;
+  font-weight: 200;
+  font-style: italic;
+}
+
+.fira-sans-light-italic {
+  font-family: "Fira Sans", sans-serif;
+  font-weight: 300;
+  font-style: italic;
+}
+
+.fira-sans-regular-italic {
+  font-family: "Fira Sans", sans-serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.fira-sans-medium-italic {
+  font-family: "Fira Sans", sans-serif;
+  font-weight: 500;
+  font-style: italic;
+}
+
+.fira-sans-semibold-italic {
+  font-family: "Fira Sans", sans-serif;
+  font-weight: 600;
+  font-style: italic;
+}
+
+.fira-sans-bold-italic {
+  font-family: "Fira Sans", sans-serif;
+  font-weight: 700;
+  font-style: italic;
+}
+
+.fira-sans-extrabold-italic {
+  font-family: "Fira Sans", sans-serif;
+  font-weight: 800;
+  font-style: italic;
+}
+
+.fira-sans-black-italic {
+  font-family: "Fira Sans", sans-serif;
+  font-weight: 900;
+  font-style: italic;
+}
+
 body {
   background-color: black;
   color: #fff;
@@ -67,6 +180,7 @@ nav ul li a:hover::after {
 .header-text h1 {
   font-size: 60px;
   margin-top: 20px;
+  font-weight: 600;
 }
 .header-text h1 span {
   color: #ff004f;
@@ -96,6 +210,7 @@ nav ul li a:hover::after {
 }
 .about-col-2 {
   flex-basis: 60%;
+  font-family: "Fira Sans", sans-serif;
 }
 .sub-title {
   font-size: 60px;
@@ -112,6 +227,7 @@ nav ul li a:hover::after {
   font-weight: 500;
   cursor: pointer;
   position: relative;
+  font-family: "Fira Sans", sans-serif;
 }
 .tab-links::after {
   content: "";
@@ -124,7 +240,7 @@ nav ul li a:hover::after {
   transition: 0.5s;
 }
 .tab-links.active-link::after {
-  width: 50%;
+  width: 70%;
 }
 .tab-links:hover::after {
   width: 100%;
@@ -135,7 +251,8 @@ nav ul li a:hover::after {
 }
 .tab-contents ul li span {
   color: #ff004f;
-  font-size: 14px;
+  font-size: 16px;
+  font-family: "Fira Sans", sans-serif;
 }
 .tab-contents {
   display: none;
@@ -157,6 +274,7 @@ nav ul li a:hover::after {
   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
   grid-gap: 40px;
   margin-top: 50px;
+  font-family: "Fira Sans", sans-serif;
 }
 .services-list div {
   background: #262626;
@@ -165,6 +283,7 @@ nav ul li a:hover::after {
   font-weight: 10px;
   border-radius: 10px;
   transition: background 0.5s, transform 0.5s;
+  font-family: "Fira Sans", sans-serif;
 }
 .services-list div i {
   font-size: 50px;
@@ -197,6 +316,8 @@ nav ul li a:hover::after {
   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
   grid-gap: 40px;
   margin-top: 50px;
+  font-family: "Fira Sans", sans-serif;
+  font-weight: 500;
 }
 .work {
   border-radius: 10px;
@@ -230,7 +351,7 @@ nav ul li a:hover::after {
   transition: height 0.5s;
 }
 .layer h3 {
-  font-weight: 500;
+  font-weight: 600;
   margin-bottom: 20px;
 }
 .layer a {
